@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+}
+.container-form{
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+.container-form h1{
+    font-size: 75px;
+    font-family: 'Dancing Script', cursive;
+    padding:28px;
+}
+
+body{
+    background-image: url(../home3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.nav{
+    width: 100%;
+    background-color: rgba(0,0, 0,.5);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0,0, 0,.6);
+    height: 50px;
+    color: #c2a080;
+    position: relative;
+    text-align: justify;  /* For Edge */
+  text-align-last: right;
+}
+.dropdown-container:hover{
+    position:relative;
+}
+  
+.textmantappp{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10%;
+}
+.imagesosmed{
+    margin-top: 0.5%;
+    margin-right:1%
+}
+.dropdown a{
+    text-decoration: none;
+    color: #c2a080 !important;
+}
+.dropdown{
+    text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(0,0, 0,.4);
+    color: #c2a080 !important;
+    /* width: 200%; */
+}
+
+.dropdown-container:hover .dropdown{
+    visibility: visible;
+    opacity: 100;
+    transition: 0.5s;
+}
+
+.dropdown-item
+{
+    box-sizing: border-box;
+    line-height: 60px;
+    padding: 0px 50px;
+}
+
+.dropdown-item:hover
+{
+    cursor: pointer;
+    background-color: rgba(0,0, 0,.67);
+}
+.dropdownheader{
+    cursor: pointer;
+    background-color: rgba(0,0, 0,.1);
+    padding: 32px;
+}
+.dropdown-item{
+    text-decoration: none;
+}
+
+@media(max-width:800px){
+  .container-form{
+      padding: 100px;
+  }
+}

@@ -1,0 +1,309 @@
+*{
+    margin: 0%;
+    
+}
+
+@font-face{
+    font-family: 'Dancing Script', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+}
+
+body{
+    background-image: url(../home2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.nav{
+    width: 100%;
+    background-color: rgba(0,0, 0,.7);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.blablacontainer{
+    background-color: rgba(0,0,0,.5);
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0,0, 0,.7);
+    height: 50px;
+    color: #c2a080;
+    text-align: justify;  /* For Edge */
+  text-align-last: right;
+    position: relative;
+}
+.dropdown-container:hover{
+    position:relative;
+}
+  
+.textmantappp{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10%;
+}
+.imagesosmed{
+    margin-top: 0.5%;
+    margin-right:1%
+}
+.dropdown a{
+    text-decoration: none;
+    color: #c2a080 !important;
+}
+.dropdown{
+    text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(0,0, 0,.4);
+    color: #c2a080 !important;
+    z-index: 999;
+}
+
+.dropdown-container:hover .dropdown{
+    visibility: visible;
+    opacity: 100;
+    transition: 0.5s;
+}
+
+.dropdown-item
+{
+    box-sizing: border-box;
+    line-height: 60px;
+    padding: 0px 50px;
+}
+
+.dropdown-item:hover
+{
+    cursor: pointer;
+    background-color: rgba(0,0, 0,.67);
+}
+.dropdownheader{
+    cursor: pointer;
+    background-color: rgba(0,0, 0,.1);
+    padding: 32px;
+}
+
+.boxheader{
+    text-align: center;
+}
+.feature1{
+    position: relative;
+    right: -700px;
+    
+}
+.feature2{
+    position: relative;
+    left: -300px;
+}
+.feature3{
+    position: relative;
+    right: -300px;
+}
+.feature4{
+    position: relative;
+    left: -300px;
+}
+.hover1{
+    position: relative;
+    overflow:hidden;
+    width: min-content;
+}
+#image1-replace{
+    filter: opacity(0);
+    transition: all 1s ease;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+#image1-replace:hover{
+    filter: opacity(1);
+}
+.hover2{
+    position: relative;
+    overflow: hidden;
+    width: min-content;
+    right: -370px;
+}
+#image2-replace{
+    filter: opacity(0);
+    transition: all 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#image2-replace:hover{
+    filter: opacity(1);
+}
+.hover3{
+    position: relative;
+    overflow: hidden;
+    width: min-content;
+    right: -365px;
+}
+#image3-replace{
+    filter: opacity(0);
+    transition: all 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#image3-replace:hover{
+    filter: opacity(1);
+}
+.hover4{
+    position: relative;
+    overflow: hidden;
+    width: min-content;
+    right: -370px;
+}
+#image4-replace{
+    filter: opacity(0);
+    transition: all 1s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#image4-replace:hover{
+    filter: opacity(1);
+}
+.box{
+    text-align: center;
+}
+#description1{
+    width: 30%;
+    background-color: rgba(0,0,0,.6);
+    position: relative;
+    left: 34px;
+    top: -70px;
+    padding: 20px;
+    font-size: 20px;
+    color: #c2a080;
+    border:5px solid #fff;
+    box-shadow: 3px 3px 10px #000;
+}
+#description2{
+    width: 30%;
+    background-color: rgba(0,0,0,.6);
+    position: relative;
+    left: 414px;
+    top: -50px;
+    padding: 20px;
+    font-size: 20px;
+    color: #c2a080;
+    border:5px solid #fff;
+    box-shadow: 3px 3px 10px #000;
+}
+#description3{
+    width: 30%;
+    background-color: rgba(0,0,0,.6);
+    position: relative;
+    left: 414px;
+    top: -50px;
+    padding: 20px;
+    font-size: 20px;
+    color: #c2a080;
+    border:5px solid #fff;
+    box-shadow: 3px 3px 10px #000;
+}
+#description4{
+    width: 30%;
+    background-color: rgba(0,0,0,.6);
+    position: relative;
+    left: 414px;
+    top: -50px;
+    padding: 20px;
+    font-size: 20px;
+    color: #c2a080;
+    border:5px solid #fff;
+    box-shadow: 3px 3px 10px #000;
+}
+
+.boxheader
+{
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    font-size: 30px;
+}
+
+@media(max-width:800px){
+    .feature1{
+        position: relative;
+        right: -20px;
+    }
+    .feature2{
+        position: relative;
+        left: -350px;
+    }
+    .feature3{
+        position: relative;
+        right: 350px;
+    }
+    .feature4{
+        position: relative;
+        left: -350px;
+    }
+    #description1{
+        width: 70%;
+        background-color: rgba(0,0,0,.6);
+        position: relative;
+        left: 34px;
+        top: -70px;
+        padding: 20px;
+        font-size: 20px;
+        color: #c2a080;
+        border:5px solid #fff;
+        box-shadow: 3px 3px 10px #000;
+    }
+    #description2{
+        width: 70%;
+        background-color: rgba(0,0,0,.6);
+        position: relative;
+        right: 34px;
+        top: -70px;
+        padding: 20px;
+        font-size: 20px;
+        color: #c2a080;
+        border:5px solid #fff;
+        box-shadow: 3px 3px 10px #000;
+    }
+    #description3{
+        width: 70%;
+        background-color: rgba(0,0,0,.6);
+        position: relative;
+        right: 34px;
+        top: -70px;
+        padding: 20px;
+        font-size: 20px;
+        color: #c2a080;
+        border:5px solid #fff;
+        box-shadow: 3px 3px 10px #000;
+    }
+    #description4{
+        width: 70%;
+        background-color: rgba(0,0,0,.6);
+        position: relative;
+        right: 34px;
+        top: -70px;
+        padding: 20px;
+        font-size: 20px;
+        color: #c2a080;
+        border:5px solid #fff;
+        box-shadow: 3px 3px 10px #000;
+    }
+}

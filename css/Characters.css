@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+}
+body, html {
+    height: 100%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("../thumb-1920-1107308.jpg");
+      filter: blur(2px);
+    -webkit-filter: blur(2px);
+      height: 100%;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.9);
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 80%;
+    right: -25%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+  }
+
+  .bg-text h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+
+body{
+    background-image: url(../wp8732350-mondstadt-wallpapers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.nav{
+    width: 100%;
+    background-color: rgba(0,0, 0,.7);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+.containermantap2{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:415px;
+    width:710px;
+    border:5px solid  #c2a080;
+    box-shadow: 3px 3px 10px #000;
+    position: relative;
+    margin: auto;
+    
+}
+.containermantap1{
+    background-color: rgba(0,0, 0,.5);
+    margin-top: -50px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0,0, 0,.6);
+    height: 50px;
+    color: #c2a080;
+    position: relative;
+    text-align: justify;  
+  text-align-last: right;
+}
+.dropdown-container:hover{
+    position:relative;
+}
+  
+.textmantappp{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10%;
+}
+.imagesosmed{
+    margin-top: 0.5%;
+    margin-right:1%
+}
+.dropdown a{
+    text-decoration: none;
+    color: #c2a080 !important;
+}
+.dropdown{
+    text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(0,0, 0,.4);
+    color: #c2a080 !important;
+     z-index: 999;
+}
+
+.dropdown-container:hover .dropdown{
+    visibility: visible;
+    opacity: 100;
+    transition: 0.5s;
+}
+
+.dropdown-item
+{
+    box-sizing: border-box;
+    line-height: 60px;
+    padding: 0px 50px;
+}
+
+.dropdown-item:hover
+{
+    cursor: pointer;
+    background-color: rgba(0,0, 0,.67);
+}
+.dropdownheader{
+    cursor: pointer;
+    background-color: rgba(0,0, 0,.1);
+    padding: 32px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width:100%;
+	background-color:rgba(0,0,0,0.5);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.box{
+	width:1050px;
+	height:610px;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 10px;
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+}
+.model{
+	height: 350px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+.details p{
+	font-family: calibri;
+	font-weight: bold;
+	color:#c2a080;
+	text-align: center;
+	margin-top: 20px;
+    border:2px solid #c2a080;
+    box-shadow: 3px 3px 10px #000;
+    left: 20%;
+    width: 250%;
+}
+.marvel{
+	color:#c2a080;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+}
+.logo{
+	height: 60px;
+}
+.box:hover{
+	background-color: #c2a080;
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+}
+.box:hover .marvel{
+color: white;
+transition: all ease 0.5s;
+}
+.box:hover .details p{
+  color: white;
+transition: all ease 0.5s;
+}
+
+@media(max-width:800px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 14px;
+		width: 250px;
+	}
+	
+}
+@media(max-width:800px){
+	.bg-text{
+		font-size: 10px;
+    width: 70%;
+    overflow: hidden;
+    padding: -20%;
+	}
+  .bg-text h1{
+    font-size: 20px;
+  }
+}
